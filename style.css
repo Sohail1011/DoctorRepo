@@ -19,7 +19,7 @@ body {
 }
 
 .container img {
-    height: 30px;
+    height: 40px;
 }
 
 .bluser {
@@ -63,12 +63,20 @@ body {
 
 .finaly {
     display: grid;
-    grid-template-columns: repeat(1fr, 2);
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 14rem;
     margin-right: 14rem;
     margin-top: 8rem;
+    gap: 2rem;
 }
 
 .image img {
     border-radius: 45px 0 45px 0;
+}
+
+.link {
+    background-color: white;
+    height: 140px;
+    width: 600px;
+    border-radius: 2rem;
 }
