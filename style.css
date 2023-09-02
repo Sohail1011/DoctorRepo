@@ -60,3 +60,15 @@ body {
         margin-right: 15rem;
     }
 }
+
+.finaly {
+    display: grid;
+    grid-template-columns: repeat(1fr, 2);
+    margin-left: 14rem;
+    margin-right: 14rem;
+    margin-top: 8rem;
+}
+
+.image img {
+    border-radius: 45px 0 45px 0;
+}
